@@ -64,27 +64,27 @@ public class StudentListDOM {
             studentBasicInfo.appendChild(studentSex);
 
             Element studentBirthDate = document.createElement("出生日期");
-            studentSex.setTextContent(s.birthDate);
+            studentBirthDate.setTextContent(s.birthDate);
             studentBasicInfo.appendChild(studentBirthDate);
 
             Element studentIC = document.createElement("身份证号");
-            studentSex.setTextContent(s.id);
+            studentIC.setTextContent(s.id);
             studentBasicInfo.appendChild(studentIC);
 
             Element studentMajor = document.createElement("专业");
-            studentSex.setTextContent(s.major);
+            studentMajor.setTextContent(s.major);
             studentBasicInfo.appendChild(studentMajor);
 
             Element studentInDate = document.createElement("入学时间");
-            studentSex.setTextContent(s.inDate);
+            studentInDate.setTextContent(s.inDate);
             studentBasicInfo.appendChild(studentInDate);
 
             Element studentTel = document.createElement("联系方式");
-            studentSex.setTextContent(s.phone);
+            studentTel.setTextContent(s.phone);
             studentBasicInfo.appendChild(studentTel);
 
             Element studentState = document.createElement("学籍状态");
-            studentSex.setTextContent(s.xueji);
+            studentState.setTextContent(s.xueji);
             studentBasicInfo.appendChild(studentState);
 
 
@@ -114,7 +114,6 @@ public class StudentListDOM {
                 score_temp.setTextContent(temp[2]);
                 mark.appendChild(score_temp);
             }
-            studentGrade.appendChild(student);
         }
 
 
