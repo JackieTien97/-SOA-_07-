@@ -126,7 +126,7 @@ public class StudentListDOM {
             // 创建Transformer对象
             Transformer transformer = transformerFactory.newTransformer();
             transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            transformer.transform(new DOMSource(document),new StreamResult(new File("./result/studentList.xml")));
+            transformer.transform(new DOMSource(document),new StreamResult(new File("studentList.xml")));
         } catch (TransformerConfigurationException e) {
             e.printStackTrace();
         } catch (TransformerException e) {
