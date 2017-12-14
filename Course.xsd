@@ -31,7 +31,7 @@
 
 	<complexType name="上课时间与地点表类型">
 		<sequence maxOccurs="unbounded">
-			<element name="上课时间与地点" type="tns:上课时间与地点类型">
+			<element name="上课时间与地点" type="tns:上课时间与地点类型"/>
 		</sequence>
 	</complexType>
 
