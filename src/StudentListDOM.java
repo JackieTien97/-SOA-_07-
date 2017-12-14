@@ -27,7 +27,7 @@ public class StudentListDOM {
         return documentBuilder;
     }
 
-    public void createXML() {
+    public void createXML(Student s) {
 
         DocumentBuilder documentBuilder = getDocumentBuilder();
         Document document = documentBuilder.newDocument();
@@ -36,7 +36,7 @@ public class StudentListDOM {
 
         // 向学生列表根节点中添加子节点院系学生
         Element departmentStudent = document.createElement("院系学生");
-        departmentStudent.setAttribute("院系编号", "1");
+        departmentStudent.setAttribute("院系编号", "1250");
         studentList.appendChild(departmentStudent);
 
         Element studentGrade = document.createElement("学生年级");
@@ -46,13 +46,25 @@ public class StudentListDOM {
         Element student = document.createElement("学生");
         studentGrade.appendChild(student);
 
+        Element studentBasicInfo = document.createElement("学生基本信息");
+        student.appendChild(studentBasicInfo);
+
         Element studentID = document.createElement("学号");
-        studentID.setTextContent("151250036");
-        student.appendChild(studentID);
+        studentID.setTextContent(s.sid);
+        studentBasicInfo.appendChild(studentID);
 
         Element studentName = document.createElement("姓名");
-        studentName.setTextContent("fc");
-        student.appendChild(studentName);
+        studentName.setTextContent(s.name);
+        studentBasicInfo.appendChild(studentName);
+
+        Element studentSex = document.createElement("性别");
+        studentSex.setTextContent(s.sex);
+        studentBasicInfo.appendChild(studentSex);
+
+        Element studentBirthDate = document.createElement("性别");
+        studentSex.setTextContent(s.birthDate);
+        studentBasicInfo.appendChild(studentBirthDate);
+
 
         Element studentScore = document.createElement("学生成绩");
         student.appendChild(studentScore);
@@ -95,10 +107,5 @@ public class StudentListDOM {
         } catch (TransformerException e) {
             e.printStackTrace();
         }
-    }
-
-    public static void main(String[] args) {
-        StudentListDOM studentListDom = new StudentListDOM();
-        studentListDom.createXML();
     }
 }

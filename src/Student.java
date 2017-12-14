@@ -1,19 +1,18 @@
-import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Student {
     String sid;
     String name;
     String sex;
-    LocalDate birthDate;
+    String birthDate;
     String id;
     String major;
-    LocalDate inDate;
+    String inDate;
     String phone;
     String xueji;
     ArrayList<String> scores;
 
-    public Student(String sid, String name, String sex, LocalDate birthDate, String id, String major, LocalDate inDate, String phone, String xueji, ArrayList<String> scores) {
+    public Student(String sid, String name, String sex, String birthDate, String id, String major, String inDate, String phone, String xueji, ArrayList<String> scores) {
         this.sid = sid;
         this.name = name;
         this.sex = sex;
