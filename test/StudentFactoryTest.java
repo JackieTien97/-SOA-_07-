@@ -14,8 +14,8 @@ public class StudentFactoryTest {
     @org.junit.Test
     public void getStudents() throws Exception {
         List<Student> students=studentFactory.getStudents();
-        Assert.assertEquals(1,students.size());
-        Assert.assertEquals("朱应山",students.get(0).name);
+        Assert.assertEquals(8,students.size());
+        Assert.assertEquals("男",students.get(0).sex);
     }
 
 }

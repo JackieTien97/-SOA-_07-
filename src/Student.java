@@ -6,7 +6,7 @@ public class Student {
     String sex;
     String birthDate;
     String id;
-    String major;
+    String major="软件工程";
     String inDate;
     String phone;
     String xueji;
@@ -18,12 +18,11 @@ public class Student {
         this.sex=infoStr.get(2);
         this.birthDate=infoStr.get(3);
         this.id=infoStr.get(4);
-        this.major=infoStr.get(5);
-        this.inDate=infoStr.get(6);
-        this.phone=infoStr.get(7);
-        this.xueji=infoStr.get(8);
+        this.inDate=infoStr.get(5);
+        this.phone=infoStr.get(6);
+        this.xueji=infoStr.get(7);
         this.scores=new ArrayList<>();
-        for(int i=9;i<infoStr.size();i++){
+        for(int i=8;i<infoStr.size();i++){
             scores.add(infoStr.get(i));
         }
     }
