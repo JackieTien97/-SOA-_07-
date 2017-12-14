@@ -5,9 +5,6 @@
 	xmlns:nju="http://www.nju.edu.cn/schema"
 		elementFormDefault="qualified">
 
-	<import namespace="http://www.nju.edu.cn/schema"
-		schemaLocation="PersonInfo.xsd" />
-
 	<include schemaLocation="Student.xsd"/>
 	
 

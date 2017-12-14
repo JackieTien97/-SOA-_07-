@@ -1,0 +1,31 @@
+<sch:学生列表 xmlns:sch="http://jw.nju.edu.cn/schema">
+  <sch:院系学生 院系编号="stri">
+    <sch:学生年级 年级="大三">
+      <sch:学生>
+        <sch:学生基本信息>
+          <sch:学号>stringstr</sch:学号>
+          <sch:姓名>string</sch:姓名>
+          <sch:性别>男</sch:性别>
+          <sch:出生日期>2013-11-23</sch:出生日期>
+          <sch:身份证号>stringstringstring</sch:身份证号>
+          <sch:专业>stringstri</sch:专业>
+          <sch:入学时间>2014-06-09+08:00</sch:入学时间>
+          <sch:联系方式>stringstrin</sch:联系方式>
+          <sch:学籍状态>无</sch:学籍状态>
+        </sch:学生基本信息>
+        <sch:学生成绩>
+          <sch:成绩详情 学期="大三第二学期">
+            <sch:课程成绩列表>
+              <sch:课程成绩 课程编号="string" 成绩性质="总评成绩">
+                <sch:成绩>
+                  <sch:学号>stringstr</sch:学号>
+                  <sch:得分>3</sch:得分>
+                </sch:成绩>
+              </sch:课程成绩>
+            </sch:课程成绩列表>
+          </sch:成绩详情>
+        </sch:学生成绩>
+      </sch:学生>
+    </sch:学生年级>
+  </sch:院系学生>
+</sch:学生列表>
