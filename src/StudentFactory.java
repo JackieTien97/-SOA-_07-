@@ -20,7 +20,7 @@ public class StudentFactory {
         scores.add("000005-平时成绩-50");
         scores.add("000005-期末成绩-100");
         scores.add("000005-总评成绩-100");
-        Student student = new Student("151250214", "朱应山", "男", LocalDate.of(1996,10,4), "522225199610047539", "软件工程", LocalDate.of(2015, 9,1), "15895873801", "是", scores);
+        Student student = new Student("151250214", "朱应山", "男", LocalDate.of(1996, 10, 4), "522225199610047539", "软件工程", LocalDate.of(2015, 9, 1), "15895873801", "是", scores);
         students.add(student);
         return students;
     }
