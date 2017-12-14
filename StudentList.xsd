@@ -29,7 +29,7 @@
 
     <complexType name="学生年级类型">
     	<sequence>
-			<element name="学生" type="tns:学生类型"/>
+			<element name="学生" type="tns:学生信息类型"/>
 		</sequence>
 		<attribute name="年级" type="tns:年级类型"/>
     </complexType>
@@ -42,12 +42,5 @@
 			<enumeration value="大四"/>
 		</restriction>
 	</simpleType>
-
-	<complexType name="学生类型">
-		<sequence minOccurs="0" maxOccurs="unbounded">
-			<element name="学号" type="tns:学号类型"/>
-			<element name="姓名" type="nju:人员名称类型"/>
-		</sequence>
-	</complexType>
     
 </schema>
