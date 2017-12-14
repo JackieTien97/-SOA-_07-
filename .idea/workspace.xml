@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="c6ffac20-c20e-4982-9555-adab5b216777" name="Default" comment="new directory">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Assignment3.java" afterPath="$PROJECT_DIR$/src/Assignment3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StudentListDOM.java" afterPath="$PROJECT_DIR$/src/StudentListDOM.java" />
-=======
+
     <list default="true" id="c6ffac20-c20e-4982-9555-adab5b216777" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Student.java" afterPath="$PROJECT_DIR$/src/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/StudentFactoryTest.java" afterPath="$PROJECT_DIR$/test/StudentFactoryTest.java" />
->>>>>>> fd8af1990193ac6747314e07980e0949542fbd01
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +20,6 @@
       <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="75">
-              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-=======
             <state relative-caret-position="190">
               <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding />
@@ -52,7 +42,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
->>>>>>> fd8af1990193ac6747314e07980e0949542fbd01
               <folding />
             </state>
           </provider>
@@ -71,25 +60,17 @@
       <file leaf-file-name="StudentFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StudentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="214">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-=======
             <state relative-caret-position="204">
               <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
->>>>>>> fd8af1990193ac6747314e07980e0949542fbd01
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="Assignment3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Assignment3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,13 +116,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-=======
-      <file leaf-file-name="StudentFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/StudentFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
->>>>>>> fd8af1990193ac6747314e07980e0949542fbd01
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,7 +201,6 @@
         <option value="$PROJECT_DIR$/StudentList.xsd.xml" />
         <option value="$PROJECT_DIR$/src/StudentFactory.java" />
         <option value="$PROJECT_DIR$/test/StudentFactoryTest.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Assignment3.java" />
         <option value="$PROJECT_DIR$/src/StudentListDOM.java" />
         <option value="$PROJECT_DIR$/studentListTest.xml" />
